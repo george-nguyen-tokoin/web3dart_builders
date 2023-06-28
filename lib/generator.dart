@@ -177,7 +177,7 @@ class _ContractGeneration {
           ..required = true),
         Parameter((b) => b
           ..name = 'chainId'
-          ..type = dartInt.rebuild((b) => b.isNullable = true)
+          ..type = bigInt.rebuild((b) => b.isNullable = true)
           ..required = false
           ..named = true),
       ])
